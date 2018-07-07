@@ -1,16 +1,17 @@
 * {
-box-sizing:border-box;
-margin: 7px;
+    box-sizing: border-box;
+    margin: 7px;
 }
 
 body {
     height: 100%;
 }
+
 .header {
-  background-color:#7f50ff;
-  height: 20%;
-  text-align: center;
-  color: #010102;
+    background-color: #7f50ff;
+    height: 20%;
+    text-align: center;
+    color: #010102;
 }
 
 .title {
@@ -19,64 +20,63 @@ body {
 }
 
 button {
-  width: 10%;
-	border-radius:25px 25px 25px 25px;
-	background: #010102;
-	border:none;
-	color:#7f50ff;
-   font-family: 'Oswald', sans-serif;
+    width: 10%;
+    border-radius: 25px 25px 25px 25px;
+    background: #010102;
+    border: none;
+    color: #7f50ff;
+    font-family: 'Oswald', sans-serif;
     font-size: 15px;
-	padding:5px 0 5px 0;
+    padding: 5px 0 5px 0;
     margin-bottom: 2%;
 }
 
 .container {
-  height: 80%;
-  background-color: #f1f1f1;
-  position:fixed;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
- margin-left: 20%;
+    height: 80%;
+    background-color: #f1f1f1;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-left: 28%;
     margin-right: 10%;
     padding-bottom: 5%;
     padding-right: 1%;
     padding-left: 1%;
 }
 
-.object {
+.form {
     display: relative;
-  padding: 20px;;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 10%;
+    padding: 20px;
+    ;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10%;
     margin-top: 10%;
     margin-left: 2%;
     margin-right: 5%;
 }
 
 .circle {
-  border: 1px solid #7f50ff;
-  border-radius : 50%;
+    border: 2px solid #7f50ff;
+    border-radius: 50%;
 }
 
 .square {
-  border: 1px solid #7f50ff;
+    border: 2px solid #7f50ff;
 
 }
 
 .diamond {
-  border: 1px solid #7f50ff;
-  -webkit-transform: rotate(45deg);
+    border: 2px solid #7f50ff;
+    -webkit-transform: rotate(45deg);
     height: 127px;
     width: 123px;
-     margin-top: 20%;
+    margin-top: 20%;
     margin-left: 11%;
     margin-bottom: 20%;
-  }
+}
 
 .back {
     background-color: #7f50ff;
 }
-
-
